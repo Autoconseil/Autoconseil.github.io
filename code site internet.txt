@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Auto conseil + | Votre expert en achat et vente automobile</title>
+    <style>
+        /* Ajoutez ici votre code CSS */
+    </style>
+</head>
+<body>
+    <header>
+        <div id="logo">
+            <img src="logo.png" alt="Logo Auto conseil +">
+        </div>
+        <div id="slogan">
+            <h1>Auto conseil +</h1>
+            <p>Votre expert en achat et vente automobile</p>
+        </div>
+        <nav id="menu">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="presentation.html">Présentation</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="content">
+        <section id="intro">
+            <h2>Bienvenue sur le site de Auto conseil +</h2>
+            <p>Vous cherchez une voiture ? Vous voulez vendre la vôtre ? Vous avez besoin d'un accompagnement personnalisé ? Vous êtes au bon endroit !</p>
+            <p>Auto conseil + est une entreprise qui vous propose des services de conseil en achat et vente automobile et de recherches personnalisées. Que vous soyez particulier ou professionnel, nous vous aidons à trouver la voiture qui vous convient, au meilleur prix et dans les meilleures conditions.</p>
+            <p>Nous vous invitons à découvrir nos services, à consulter notre blog et à nous contacter pour toute demande. Nous serons ravis de vous répondre et de vous accompagner dans votre projet.</p>
+        </section>
+        <section id="contact">
+            <h2>Contactez-nous dès maintenant !</h2>
+            <p>Vous avez une question ? Vous souhaitez obtenir un devis gratuit ? Remplissez le formulaire ci-dessous et nous vous répondrons dans les plus brefs délais.</p>
+            <form id="contact-form" method="post" action="send.php">
+                <label for="name">Nom :</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Sujet :</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="10" cols="50" required></textarea>
+
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+    </main>
+    <footer id="footer">
+        <p>© 2023 Auto conseil + | Tous droits réservés | Mentions légales | Politique de confidentialité</p>
+    </footer>
+</body>
+</html>
+
